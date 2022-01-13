@@ -1,0 +1,637 @@
+Primeiros Passos para Começar a Programar
+
+Introdução
+História da computação
+Ábaco
+- Um dos primeiros dispositivos de cálculo.
+- Operações básicas com 12 inteiros
+- Babilônia – 3 mil a.C
+Quadrante
+- Cálculo astronômico – Navegação
+- Ptolomeu Babilônia
+- Desenvolvido no século XVI
+Ciência da computação
+- Surgimento dos primeiros computadores
+- Avanço exponencial
+Berço da computação
+Pai da computação: Alan Turing -> Início da revolução
+		Base matemática
+Algoritmo
+		Noção matemática
+Perfil
+- Nasceu em 1912 à 1954
+- Cambrigde
+- Matemático
+- Formalizou o conceito de algoritmo
+Decifrando código de Guerra
+- 1940
+	- Escola de cifras e códigos – Inglaterra
+	- 9 matemáticos
+- Notoriedades pós-guerra
+- Projeto Delilab – codificador de voz
+Percebeu a vasta aplicabilidade da álgebra booleana.
+Conceitos
+Computadores digitais
+Lógica
+Circuito eletrônicos
+Lógica de Programação
+Definição formal:
+“Problema é uma questão que foge a uma determinada regra, ou melhor é um desvio de percurso, o qual impede de atingir um objetivo com eficiência e eficácia.
+Definição formal de lógica:
+“Parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese, inferência etc...) e das operações intelectuais que visam à determinação do que é verdadeiro ou não.”
+Lógica -> Organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa.
+Técnicas de lógica de programação
+Técnica Linear
+•	Modelo tradicional
+•	Não tem vínculo
+•	Estrutura hierárquica
+•	Programação de computadores
+Técnica Estruturada
+Organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato).
+Objetivo:
+•	Escrita
+•	Entendimento
+•	Validação
+•	Manutenção
+Técnica Modular
+Controlada por um conjunto de regras -> Partes independentes
+•	Dados de entrada
+•	Processo de transformação
+•	Dados de saída
+Metas
+•	Simplificação
+•	Decompor o problema
+•	Verificação do módulo
+Algoritmos
+É o processo de resolução de problemas “step by setp” utilizando instruções.
+Desenvolvimento do Programa
+•	Análise
+Estudo e definição dos dados de entrada e saída
+•	Algoritmo
+Descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo
+•	Codificação
+O algoritmo é codificado de acordo com a linguagem de programação escolhida.
+Sequência de passos com objetivo definido.
+Execução de tarefas específicas.
+Conjunto de operações que resultam em uma sucessão finita de ações.
+Como construir um algoritmo?
+•	Compreensão do problema
+•	Definição dados de entrada
+•	Definir processamento
+•	Definir dados de saída
+•	Utilizar um método de construção
+•	Teste e diagnóstico
+Construção de algoritmo:
+Narrativa -> Utilização da linguagem natural
+Fluxograma -> Utilização de símbolos pré-definidos
+Pseudocódigo -> Portugol
+Fundamentos de algoritmos
+	Tipologia e variáveis
+Qual a função do computador?
+Informação
+Dados      Instruções
+	Tipos de dados
+								Tratadas e processadas
+Informação
+Dados      Instruções                                     Numéricos Caracteres e Lógicos       
+	Tipo – Numérico
+Numéricos
+Inteiros                            0, 1, 5, 50, 60, 800, ...
+			-58, -50, -49, 32, -10, -5 
+Reais                        5.95, 9.54, -8.8, -0.555....
+		    0, 1, 5, 50, 60, 800, ...
+		    -58,-50, -49, 32, -10, -5
+Tipo – Caracteres
+?    Caractere k                            “Programação” “PROGRAMAÇÃO” “KU*&nh53G”
+A # ! º ª§
+Tipo – Lógico
+Lógico                                           Booleano
+Verdadeiro – 1
+Falso – 0
+
+.Verdadeiro .V ou .S
+.Falso .F ou .N
+Português estruturado
+
+Variável – pode assumir qualquer um dos valores de um determinado conjunto de valores.
+
+A - b = d                    a + b = c
+Uma variável tem que ser previamente identificadas.
+Regras:
+•	Atribuição de um ou mias caracteres
+•	Primeira letra – não número
+•	Sem espaço em branco
+•	Vedado -> utilização de palavras reservadas
+•	Caracteres e número
+Pappéis de uma variável
+Ação -> modificação de estado
+Controle -> viagiada, controle
+Constante
+Definição -> tudo aquilo que é fixo ou estável.
+O que não muda
+Inalterável
+Invariável
+Instruções primitivas
+Cálculo matemáticos – operadores Binário e Unário
+Variáveis
+Constantes
+O que são instruções?
+Instruções são linguagem de palavras-chave (vocabulário) de uma determinada programação que tem por finalidade comandar um computador que irá tratar os dados.
+Estrutura condicionais e operadores
+Condição -> estado de uma pessoa ou coisa
+Condicional -> que expressão uma condição ou suposição
+		Contém ou implica uma suposição ou hipótese
+Estrutura condicional simples
+			
+	Condição
+satisfeita
+
+	Operação
+Estrutura condicional composta
+			inverdade
+	Condição		exceção
+satisfeita
+
+	Operação
+
+
+
+Estrutura condicional encadeada
+			
+	Condição		Condição		exceção
+
+
+	Operação		Operação
+
+
+
+
+Operadores Relacionais
+Símbolo	Significado
+=	Igual a
+<>	Diferente de
+>	Maior que
+<	Menor que
+>=	Maior ou igual a
+<=	Menor ou igual a
+
+Condicional simples
+
+
+
+
+
+
+
+
+
+				N				S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Se (<condição>) então
+	<instruções para condição verdadeira>
+Fim_se
+Inicio programa
+A = 0
+B = 0
+X = 0
+
+Leia A
+Leia B
+
+X =A + B
+
+Se (X > 10)
+Escreva X
+Fim se
+Fim programa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Condicional composta
+
+
+
+
+
+
+
+
+
+
+				N				S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inicio programa
+A = 0
+B = 0
+X = 0
+
+Leia A
+Leia B
+X = A + B
+Se (X >= 10)
+X = X- 7
+Senão
+X = X + 5
+Fim se
+Fim do programa
+
+Inicio programa
+Nota1 = 5
+Nota2 = 8
+Resultado
+
+Resultado = (Nota1 + Nota2)/2
+
+Se resultado >= 6
+Escreva “Aprovado”
+Senão
+Escreva “Reprovado”
+Fim_se
+Escreva resultado
+Fim programa
+
+
+
+
+Condicional Encadeado
+
+
+
+
+
+Se (<condição1>) então
+	<instruções para condição verdadeira>
+Senão
+	Se (<condição2>) então
+		<instruções para condição2 verdadeira e condição1 falsa>
+	Senão
+		<instruções para condição 1 e 2 falsas>
+Fim_se
+
+Inicio programa:
+A = 0
+B = 0
+X = 0
+
+Leia A
+Leia B
+X = A + B
+Se (X > 10) então
+Se (x < 50) então
+X = x – 7
+Senão
+X = X + 5
+Fim se
+Fim programa
+
+Operadores Lógicos
+AND                        OR                          NOT
+Quando utilizar?
+•	Verificação de V ou F
+•	Substituição
+Encadeamento de condições
+AND – operador Lógico
+Condição verdadeira
+	Todas devem ser satisfeitas
+
+A AND  B
+Condição 1	Condição 2	Resultado
+Falsa	Falsa	Falso
+Verdadeira	Falsa	Falso
+Falsa	Verdadeira	Falso
+Verdadeira	Verdadeira	Verdadeiro
+
+Ex: Curso de inglês
+
+Se (gramatica . e . conversação) então
+	Escreva “aprovado”					Interseção
+Senão
+	Escreva “reprovado”
+
+Condição verdadeira
+•	Apenas uma das condições 
+Deve ser verdadeira
+Condição 1	Condição 2	Resultado
+Falsa	Falsa	Falso
+Verdadeira	Falsa	Verdadeiro
+Falsa	Verdadeira	Verdadeiro
+Verdadeira	Verdadeira	Verdadeiro
+
+Ex:
+
+Se(choveu .ou. grama_molhada) então
+	Escreva “Plantas regadas”				União
+Senão
+	Escreva “Regar plantas”
+NOT – operador Lógico
+
+•	 Operador de negação
+•	Inversão do resultado lógico
+Condição	Resultado
+Verdadeira	Falso
+Falso	Verdadeira
+
+Ex:
+Not B -> tudo que não está em B 			Negação
+
+Estrutura de Repetição
+•	Controle de fluxo
+•	Laços
+•	Malhas de repetição
+•	Loop
+•	Repetição
+Condições de parada:
+- Número de repetições pré definida
+- Condição a ser satisfeita
+Qual a vantagem?
+•	Redução de linhas]
+•	Compreensão facilitada
+•	Redução de erro
+Vetores e Matrizes
+Um vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado.
+Uma matriz é uma tabela organizada em linhas e colunas no formato m x n, onde m representa o número de linhas (horizontal) e n o número de colunas (vertical).
+•	Coleção de variáveis
+•	Contiguas em memória
+•	Índices
+Operações
+Definição
+	Vetor conjunto [1..9]<inteiro>
+	Vetor[15]
+	Vetor = []
+Atribuição
+	Posição = 5
+	Vetor[posição] = novo valor
+	Vetor[posição] <- novo valor
+Leitura
+	Leia vetor[5]
+	Escreva vetor[5]	
+Funções
+Funções tem diversos nomes:
+•	Função
+•	Subprograma
+•	Bloco
+•	Sub-rotina
+•	Subalgoritmo
+•	Método
+Função em programação, funciona similar ao conceito de função matemática.
+f: A -> B
+	A			   B	
+
+
+
+
+
+
+As funções, ou sub-rotinas são blocos de instruções que realizam tarefas específicas.
+- Decomposição do algoritmo
+Quando utilizamos as funções:
+•	Modularização do programa
+•	Código mais claro e conciso
+•	Reutilização de instruções
+São blocos de instruções (código), identificados por nomes e parâmetros. (Assinatura)
+•	Definição
+•	Nome
+•	Invocação
+•	Variável local -> São destruídas ao encerrar a função
+Instruções de entrada/saída
+
+Instruções de entrada
+	Consiste na inserção e recebimento de dados do mundo real por meio de ação de alguma interface. Seja teclado, mouse, arquivos, entre outros.
+Instruções de saída
+	Consiste na impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface.
+	Os formatos podem variar desde simples arquivos binários até complexas querys de banco de dados.
+Existe dois tipos de saídas dentro de um programa (algoritmo)
+•	Saída programada -> condicional ou incondicional
+•	Saída por interrupção -> definida pelos periféricos
+LIVROS
+José Augusto Manzano, Algoritmos – Lógica para desenvolvimento de programação de computadores, Ed. Érica, 17ª ed. (ou mais recente) – livro de referência
+Ana Fernandes Ascencio, Fundamentos da programação de computadores – algoritmos, Pascal, C/C e Java, Ed. Pearson, 2ª ed.
+Andrew S. Tanenbaum, “Livro Organização Estruturada de Computadores”, Ed. Pearson, 5ª edição – Capítulo 1
+Introdução à linguagens de programação
+1949   Assembly Primeira linguagem
+Década de 50 surgimento:
+•	Fortran
+•	COBOL
+•	LISP
+•	...
+Década de 60 e 70 surgimento:
+•	C
+•	Prolog
+•	ML
+•	...
+Década de 90 surgimento:
+•	Linguagens de alto nível
+•	Java
+•	Python
+•	Ruby
+•	C#
+•	Javascript
+Década de 2000 surgimento:
+•	Linguagens multiparadigmas
+•	Go
+•	Rust
+•	Dart
+•	TypeScript
+Problemas computacionais
+Objeto de discussão que possui instruções passo a passo que são mais facilmente resolvíveis em ambiente computacional.
+Problemas de decisão:
+•	Caracter lógico – Sim ou não
+•	Ideia
+•	Pertencimento
+Ex: “Dado um número n inteiro positivo, determine se n e primo”
+Problemas de busca
+•	Relacionamento binário
+•	Objetivo
+Semelhante ao nome
+X está em A?
+•	Recorrente em teoria de grafos
+Ex: clique
+Problemas de otimização
+Objetivo
+•	Maximizar ou
+•	Minimizar uma função
+Aplicações
+O que é uma linguagem de programação?
+Método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um código fonte.
+- Conjunto de palavras com regras.
+			Tradução
+Código fonte
+			Interpretação
+
+Como o computador entende o programa
+Um programa é um amontoado de palavras senão for possível que o computador entenda.
+Processo de tradução
+				Executa analise do programa		Assembly
+Linguagem de alto nível			Compilador		Linguagem de máquina
+Programa Fonte						Programa Objeto
+
+Tradução  (1) Geração do programa objeto
+	     (2) Execução do programa objeto
+Interpretação Programa fonte executado diretamente
+Característica de um programa
+Desenvolvimento de programas
+•	Legibilidade -> “Estado que é legível”
+Facilidade de leitura
+Compreensão
+Ortogonalidade ->Coerência nas instruções
+Definição adequada das estruturas
+
+•	Redigibilidade -> Facilidade de escrita de código
+Pode conflitar com a legibilidade
+Ortogonalidade - > Coerência nas instruções
+Simplicidade da escrita
+Suporte à abstração
+Reuso à abstração
+Expressividade -> operador ++		uso do for
+
+•	Confiabilidade -> Faz o que foi programado para fazer
+Possui
+	Verificação de tipos
+	Trata exceções
+	Uso de ponteiros
+	Compatibilidade entre compiladores
+
+•	Custo -> análise de impacto
+Possui
+	Treinamento
+	Codificação
+	Compilação
+	Execução
+	Infra-estrutura
+Outras características
+Atualizações									Uso para IA
+				Disponibilidade de ferramentas
+Comunidade ativa							Adoção pelo mercado
+Análises de código
+Análise léxica
+Particionar	Classificar	Eliminar
+Análise sintática
+Sintaxe:
+“componente do sistema linguístico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura”
+Padrão – gramática
+•	Depende da linguagem de programação utilizada
+Erro de semântica:
+•	Não faz o que é esperado
+Ex: if (x = 0)
+Printf(“O valor é nulo \n”);
+
+Paradigmas de programação
+Paradigma:
+Forma de resolução de problemas com diretrizes e limitações específicas de cada paradigma utilizando linguagem de programação.
+Classificação:
+•	Orientação à objeto
+Abstração que trata o programa com base em classe e objetos
+•	Procedural
+Chamadas sucessivas e procedimentos separados
+•	Funcional
+Instruções são baseadas em funções
+•	Estruturado
+Estrutura de blocos aninhados
+•	Computação distribuída
+Funções executadas de forma independente
+•	Lógico
+Paradigma Estruturado
+Ênfase em sequência
+Conceitos:
+•	Sequência
+•	Decisão – Teste lógico
+•	Iteração – Funções, laços, condições
+Utilização:
+•	Problemas simples e diretos
+•	Aprender programação
+POO ainda não compreendida por muitos
+Ex: function fatorial (X) {
+	If(x > 1){
+		Return x*fatorial(x-1);
+	}
+         }
+Paradigma Orientação a objeto
+Paradigma de programação baseado na utilização de objetos e suas interações.
+Análogo ao mundo real.
+O que é um objeto?
+Um objeto é descrito por características específicas, comportamentos e estado.
+O que tenho			Sou capaz de fazer			Como faço
+Modelo				escrever				Tampada
+Cor				desenhar				Destampada
+Carga				rabiscar					Em uso
+Corpo				pintar
+Tampa				destampar
+Ponta
+
+O que tenho		Atributos
+Sou capaz de fazer	Método
+Como faço		Estados
+Classificação:
+	Modelo
+	Atributos
+	Métodos
+	Estados
+Ponto de vista da programação
+Classe
+Alocação em memória
+Operações associadas
+Pilares de Orientação a objeto
+•	Herança
+•	Encapsulamento
+•	Polimorfismo
+•	Abstração
+Classes:
+- Características
+	* Atributos
+	* Métodos
+
+
+Classe mãe
+		Classe filho						Classe filha
+
+Comportamento e estado gerais			comportamento e estado específicos
+
+POO            Reuso de código
+PE                Problemas específicos e diretos
